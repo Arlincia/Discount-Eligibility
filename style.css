@@ -1,0 +1,49 @@
+.form-box {
+    display: block;
+    margin: auto;
+    padding: 40px;
+    width: 800px;
+    height: auto;
+    background: linear-gradient(#F24C3D, #F29727, #F2BE22);
+    border: none
+}
+
+body {
+    align-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #F29727;
+}
+
+fieldset {
+    background: linear-gradient(#F24C3D, #F29727, #F2BE22);
+}
+
+h1 {
+    text-align: center;
+
+
+}
+
+h2 {
+    text-align: center;
+
+}
+
+input {
+    background: #F2BE22;
+}
+
+
+button {
+    padding: 20px;
+    border-radius: 30px;
+    color: black;
+    background: white;
+
+}
+
+button:hover {
+    border-color: #F2BE22;
+    background: #F2BE22;
+    box-shadow: #F2BE22;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Eligibility program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-box">
+    <h1>Discount Eligibility Form:</h1>
+    <h2>Please fill in below:</h2>
+    <form id="form">
+        <fieldset>
+            <!-- Personal Details Section -->
+            <h3>Personal Details</h3>
+               <label for= username>What is your fullname?</label><br>
+                 <input type="text" name="user_name" id="username" ><br><br>
+
+                  <label for= Age>How old are you?</label><br>
+                   <input type="number" name="age" id="Age" ><br><br>
+            
+            <!-- Check Box section -->
+            <h3>Membership Status</h3>
+             <input type="checkbox" name="member-status" id="member" />
+               <label for="member">Are you a member?</label><br><br>
+            
+             <button type="button" onclick="checkEligibility()">Check eligibility</button>
+            <p id="output"></p>
+
+          
+            </fieldset>
+            </form>
+        </div>
+
+        <script src="index.js"></script>
+        
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+</body>
+</html>
